@@ -17,5 +17,13 @@ class IndexController extends AbstractActionController
     public function indexAction()
     {
         return new ViewModel();
+    }
+    public function changeAction()
+    {
+        $viewModel = new ViewModel();
+        $this->layout('layout/FmiStudent');//add into module.config
+        return $viewModel;
     }
+
+    
 }
