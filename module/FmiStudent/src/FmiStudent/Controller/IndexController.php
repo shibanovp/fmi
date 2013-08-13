@@ -32,10 +32,9 @@ class IndexController extends AbstractActionController
     }    
     public function serviceAjaxAction()
     {
-        $viewModel = new ViewModel();
-       // $this->setTerminal(true);//terminal
-        return $viewModel;
-
+           $ViewModel = new ViewModel();
+           $ViewModel->setTerminal(true);
+           return $ViewModel;
     }
     public function serviceJsonAction()
     {
