@@ -23,7 +23,7 @@ window.onload = function(){
 		{
 			alert('Your browser doesn\'t support XHR');
 		}
-		alert('baseUrl = ' + BASE_URL);
+		//alert('baseUrl = ' + BASE_URL);
 		xmlhttp.open('GET', BASE_URL + '/fmi-student/service-ajax', true);
 		xmlhttp.send();
 		// notice instead of direct alert with the xmlhttp.responsetext / XML
