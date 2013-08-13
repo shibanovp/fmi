@@ -28,7 +28,7 @@ return array(
             'layout/FmiStudent'           => __DIR__ . '/../view/layout/FmiStudent.phtml',
         ),
         'template_path_stack' => array(
-            'album' => __DIR__ . '/../view',
+           // 'album' => __DIR__ . '/../view',
         ),
 
     ),
