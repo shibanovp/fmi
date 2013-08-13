@@ -37,6 +37,16 @@ class IndexController extends AbstractActionController
         return $viewModel;
 
     }
+    public function serviceJsonAction()
+    {
+        $viewModel = new ViewModel(array('data' => array(
+        'firstParam'  => 'Value1',
+        'secondParam'  => 'Value2',
+        )));
+        $this->setTerminal(true);//terminal
+        return $viewModel;
+
+    }
 
     
 }
