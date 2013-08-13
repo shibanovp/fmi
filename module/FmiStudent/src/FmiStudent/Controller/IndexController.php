@@ -34,7 +34,7 @@ class IndexController extends AbstractActionController
     {
            $viewModel = new ViewModel();
            $viewModel->setTerminal(true);
-           return $ViewModel;
+           return $viewModel;
     }
     public function serviceJsonAction()
     {
