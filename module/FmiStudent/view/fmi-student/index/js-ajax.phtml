@@ -21,5 +21,5 @@ $this->headScript()->appendFile($this->basePath('FmiStudent/js/jsAjax.js'));
 $this->inlineScript()->appendFile('js/prototype.js');
 ?>
 <?php $this->headScript()->captureStart(); ?>
-var BASE_URL = '<?php echo $this->baseUrl ;?>'
+var BASE_URL = '<?php echo $this->basePath() ;?>'
 <?php $this->headScript()->captureEnd(); ?>
