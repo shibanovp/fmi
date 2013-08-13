@@ -35,6 +35,12 @@ class IndexController extends AbstractActionController
         $viewModel = new ViewModel();
         $this->layout('layout/FmiStudent');//add into module.config
         return $viewModel;
+    }
+    public function dojoAjaxAction()
+    {
+        $viewModel = new ViewModel();
+        $this->layout('layout/FmiStudent');//add into module.config
+        return $viewModel;
     }    
     public function serviceAjaxAction()
     {
