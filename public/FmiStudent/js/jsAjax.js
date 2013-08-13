@@ -33,6 +33,7 @@ window.onload = function(){
 				var responseText = xmlhttp.responseText;
 				// var element = document.getElementById('myDiv');
 				element.innerHTML = responseText;
+        alert("box3 content changed");
 
 				var responseXML = xmlhttp.responseXML; // documentElement is the root element of the document
 				// var object = eval(responseText);
