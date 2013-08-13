@@ -8,12 +8,12 @@ class AlbumController extends AbstractActionController
 {
     public function indexAction()
     {
-      return new viewModel();
+      return new ViewModel();
     }
 
     public function addAction()
     {
-      return new viewModel();
+      return new ViewModel();
     }
 
     public function editAction()
@@ -23,6 +23,6 @@ class AlbumController extends AbstractActionController
 
     public function deleteAction()
     {
-      return new viewModel();
+      return new ViewModel();
     }
 }
