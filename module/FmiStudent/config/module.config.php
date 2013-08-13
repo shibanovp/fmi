@@ -7,7 +7,7 @@ return array(
     ),
     'router' => array(
         'routes' => array(
-            'album' => array(
+            'fmi-student' => array(
                 'type'    => 'segment',
                 'options' => array(
                     'route'    => '/fmi-student[/][:action][/:id]',
